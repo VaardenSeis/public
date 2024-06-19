@@ -1,0 +1,18 @@
+# Check the status of an entity
+
+GET /api/states/<entity_id>
+Authorization: Bearer YOUR_LONG_LIVED_ACCESS_TOKEN
+
+# Update the status of an entity
+
+POST /api/states/<entity_id>
+Authorization: Bearer YOUR_LONG_LIVED_ACCESS_TOKEN
+Content-Type: application/json
+
+{
+  "state": "new_state",
+  "attributes": {
+    "attribute1": "value1",
+    "attribute2": "value2"
+  }
+}
