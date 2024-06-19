@@ -1,6 +1,7 @@
 import requests
 
 # HomeAssistant details
+home_assistant_ip = "10.0.0.7"
 home_assistant_url = "http://your-homeassistant-url:8123"
 api_token = "HA_LONG_LIVED_ACCESS_TOKEN"
 headers = {
