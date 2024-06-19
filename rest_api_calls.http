@@ -1,9 +1,9 @@
-# Check the status of an entity
+// Check the status of an entity
 
 GET /api/states/<entity_id>
 Authorization: Bearer YOUR_LONG_LIVED_ACCESS_TOKEN
 
-# Update the status of an entity
+// Update the status of an entity
 
 POST /api/states/<entity_id>
 Authorization: Bearer YOUR_LONG_LIVED_ACCESS_TOKEN
